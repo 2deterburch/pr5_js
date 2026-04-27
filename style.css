@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1fb;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #171717;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+pre {
+    background: white;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+/* ===== CARD ===== */
+
+.card {
+    background: #dff4f4;
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.top {
+    background: #6c5ce7;
+    height: 120px;
+    border-radius: 18px 18px 100px 100px;
+    position: relative;
+    z-index: 1;
+}
+
+#hp {
+    position: absolute;
+    right: 18px;
+    top: 15px;
+    background: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* 🔥 ФІКС ДЛЯ ПОКЕМОНА */
+#pokemonImg {
+    width: 160px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ===== ТЕКСТ ===== */
+
+#name {
+    text-transform: capitalize;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.types span {
+    background: #6c5ce7;
+    color: white;
+    padding: 7px 18px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/* ===== STATS ===== */
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stats span {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.stats p {
+    margin-top: 5px;
+    color: #555;
+}
+
+/* ===== ERROR ===== */
+
+#pokemonOutput {
+    color: red;
+    font-weight: bold;
+}
