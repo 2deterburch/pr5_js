@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична робота 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Практична робота №5: Асинхронне програмування та API</h1>
+
+<section class="users-section">
+    <h2>Завантаження користувачів</h2>
+    <button id="loadUsers">Завантажити дані</button>
+    <pre id="usersOutput"></pre>
+</section>
+
+<section class="pokemon-section">
+    <h2>Pokémon Card</h2>
+
+    <div class="card">
+        <div class="top">
+            <span id="hp">HP 0</span>
+        </div>
+
+        <img id="pokemonImg" src="" alt="pokemon">
+
+        <h2 id="name">Pokemon</h2>
+
+        <div id="types" class="types"></div>
+
+        <div class="stats">
+            <div><span id="attack">0</span><p>Attack</p></div>
+            <div><span id="defense">0</span><p>Defense</p></div>
+            <div><span id="speed">0</span><p>Speed</p></div>
+        </div>
+    </div>
+
+    <button id="loadPokemon">Load Pokémon Data</button>
+    <p id="pokemonOutput"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
